@@ -81,5 +81,3 @@ test:
 production:
   <<: *default
   database: bc_production
-  username: bc
-  password: <%= ENV['BC_DATABASE_PASSWORD'] %>
